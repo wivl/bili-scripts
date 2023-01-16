@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name         Remove bilibili topic panel
+// @name         移除 bilibili 动态话题
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  nobody needs that
-// @author       陈睿
+// @version      0.1.0
+// @description  移除 bilibili 网页端动态页面中的话题面板
+// @author       wivl
 // @match        https://t.bilibili.com/
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
+// @license		 MIT
 // ==/UserScript==
-
+     
 (function() {
     'use strict';
     let elemenDetection = setInterval(function(){
@@ -20,5 +21,6 @@
             clearInterval(elemenDetection)
         }
     }, 1)
-
 })();
+
+
