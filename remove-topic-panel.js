@@ -9,12 +9,12 @@
 // @grant        none
 // @license		 MIT
 // ==/UserScript==
-     
-(function() {
+
+(function () {
     'use strict';
-    let elemenDetection = setInterval(function(){
-        if (document.getElementsByClassName('topic-panel')[0] != undefined) {
-            let panels = document.getElementsByClassName('topic-panel')
+    let elemenDetection = setInterval(function () {
+        if (document.getElementsByClassName('bili-dyn-search-trendings')[0] != undefined) {
+            let panels = document.getElementsByClassName('bili-dyn-search-trendings')
             // console.log("panels[0]", panels[0])
             panels[0].style.display = "none"
             // console.log("panels[0].style.display", panels[0].style.display)
