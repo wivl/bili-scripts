@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         移除 bilibili 动态话题
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
-// @description  移除 bilibili 网页端动态页面中的话题面板
+// @version      0.2.0
+// @description  移除 bilibili 网页端动态页面中的话题 (热搜) 面板
 // @author       wivl
 // @match        https://t.bilibili.com/
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
